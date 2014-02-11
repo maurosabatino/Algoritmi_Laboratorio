@@ -8,17 +8,18 @@ public interface Dictionary{
 	
 	/**
 	 * inserisce nel dizionario l'elemnto el.
-	 * se è gia presente un elemento con la stessa chiave, lo sostituisce con il nuovo elemento;
-	 * se invece non è presente un elemento con la stessa chiave, inserisce il nuovo elemento
+	 * se Ã¨ gia presente un elemento con la stessa chiave, lo sostituisce con il nuovo elemento;
+	 * se invece non Ã¨ presente un elemento con la stessa chiave, inserisce il nuovo elemento
 	 * @param element elemento che si vuole inserire nel dizionario
-	 * @return ObjectWhitKey se è gia presente un elemento con la stessa chiave, restituisce il vecchio elemento; se invece non è presente restituisce un elemento nullo.
+	 * @return ObjectWhitKey se Ã¨ gia presente un elemento con la stessa chiave, restituisce il vecchio elemento; se invece non Ã¨ presente restituisce un elemento nullo.
 	 */
 	ObjectWhitKey put(ObjectWhitKey element);
 	
 	/**
+   *
 	 * cancella dal dizionario l'elemento di chiave key.
 	 * @param key chiave dell'elemento che si vuole cancellare dal dizionario.
-	 * @return se l'elemento è presente e viene cancellato, resituisce l'elemento cancellato, se non è presente restituisce null.
+	 * @return se l'elemento Ã¨ presente e viene cancellato, resituisce l'elemento cancellato, se non Ã¨ presente restituisce null.
 	 */
 	ObjectWhitKey remove(int key);
 	
@@ -31,6 +32,8 @@ public interface Dictionary{
 	 * restituisce l'elemento di chiave massima
 	 */
 	ObjectWhitKey max();
-	
+	/*
+	  restituisce l ' elemento di chiave minima
+	 */
 	ObjectWhitKey min();
 }

@@ -35,7 +35,7 @@ public class BinSearchTreeGUI extends JFrame {
     readFile();
     draw();
     tree.printInOrder();
-
+    System.out.println(tree.is1Balanced());
     insButton.addActionListener(
       new ActionListener() {
         public void actionPerformed(ActionEvent e) {
@@ -43,7 +43,7 @@ public class BinSearchTreeGUI extends JFrame {
           int num = Integer.parseInt(text2.getText());
           tree.put(new Elem(nome, num));
           repaint();
-          tree.printInOrder();
+          System.out.println(tree.is1Balanced());
         }
       }
     );
