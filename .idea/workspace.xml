@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72f3481c-851d-4b7d-8a37-0273646996f4" name="Default" comment="Sto provando a fare la rimozione nell'avl">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTreeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="72f3481c-851d-4b7d-8a37-0273646996f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java" afterPath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algoritmi 2013-2014.iml" afterPath="$PROJECT_DIR$/Algoritmi 2013-2014.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/BinSearchTreeGUI.java" afterPath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/BinSearchTreeGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java" afterPath="$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algoritmi 2013-2014.iws" />
@@ -86,27 +81,7 @@
       <file leaf-file-name="AVLTree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.9677419" vertical-offset="0" max-vertical-offset="3120">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dictionary.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="675">
+            <state line="101" column="56" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.3901809" vertical-offset="1379" max-vertical-offset="3525">
               <folding />
             </state>
           </provider>
@@ -158,10 +133,25 @@
             <id>Android Lint</id>
           </State>
           <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
             <id>Class structure</id>
           </State>
           <State>
             <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
           </State>
           <State>
             <id>DOM issuesJavaScript</id>
@@ -176,10 +166,16 @@
             <id>Declaration redundancy</id>
           </State>
           <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
             <id>Error handling</id>
           </State>
           <State>
             <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>General</id>
           </State>
           <State>
             <id>GeneralJavaScript</id>
@@ -200,22 +196,67 @@
             <id>Internationalization issues</id>
           </State>
           <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
             <id>Java language level migration aids</id>
           </State>
           <State>
             <id>JavaScript</id>
           </State>
           <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
             <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
           </State>
           <State>
             <id>Naming conventions</id>
           </State>
           <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
             <id>Performance issues</id>
           </State>
           <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
             <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issues</id>
           </State>
           <State>
             <id>Spring Model</id>
@@ -230,7 +271,19 @@
             <id>TestNG</id>
           </State>
           <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
             <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -269,7 +322,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,10 +329,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Algoritmi 2013-2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -333,30 +381,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algoritmi 2013-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algoritmi 2013-2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sabatino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="esercizio4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +394,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
-    <property name="options.lastSelected" value="editor.preferences.completion" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -380,6 +407,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -674,43 +702,50 @@
       <updated>1392106075327</updated>
       <workItem from="1392106084256" duration="273000" />
       <workItem from="1392106445023" duration="4092000" />
-      <workItem from="1392128030350" duration="8763000" />
+      <workItem from="1392128030350" duration="8852000" />
+      <workItem from="1392197824206" duration="4270000" />
+      <workItem from="1392370699283" duration="5191000" />
     </task>
+    <task id="LOCAL-00001" summary="Sto provando a fare la rimozione nell'avl">
+      <created>1392138461022</created>
+      <updated>1392138461023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13128000" />
+    <option name="totallyTimeSpent" value="22678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306189" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306189" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306189" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23111783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23111783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -739,18 +774,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="3583" selection-end="3583" vertical-scroll-proportion="0.0" vertical-offset="1189" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="3" selection-start="2390" selection-end="2390" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="2265">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="3" column="32" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Dictionary.java">
@@ -762,16 +835,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio1/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio1/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="755" selection-end="755" vertical-scroll-proportion="0.64041096" vertical-offset="0" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="22" column="26" selection-start="755" selection-end="755" vertical-scroll-proportion="0.64041096" vertical-offset="0" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="https://github.com/maurosabatino/Algoritmi.git">
@@ -787,36 +856,26 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="85.5" y="14.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="14.0" />
           <SelectedNodes />
           <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="61" selection-end="61" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="2" column="22" selection-start="61" selection-end="61" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio4/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="2" selection-start="9860" selection-end="10213" vertical-scroll-proportion="0.37391305" vertical-offset="5695" max-vertical-offset="8340">
-          <folding />
-        </state>
+        <state line="399" column="2" selection-start="9860" selection-end="10213" vertical-scroll-proportion="0.37391305" vertical-offset="5695" max-vertical-offset="8340" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/BinSearchTreeGUI.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.07653061" vertical-offset="0" max-vertical-offset="2040">
+        <state line="28" column="14" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="4455" max-vertical-offset="14475">
           <folding />
         </state>
       </provider>
@@ -828,12 +887,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Elem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/BinSearchTreeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1383" selection-end="1383" vertical-scroll-proportion="-1.1989796" vertical-offset="1215" max-vertical-offset="2115">
+          <folding>
+            <element signature="e#1222#1530#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1578#1824#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/ObjectWhitKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sabatino/esercizio13/AVLTree/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.9677419" vertical-offset="0" max-vertical-offset="3120">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="101" column="56" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.3901809" vertical-offset="1379" max-vertical-offset="3525">
+          <folding />
         </state>
       </provider>
     </entry>

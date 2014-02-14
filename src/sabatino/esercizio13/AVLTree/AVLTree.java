@@ -66,43 +66,60 @@ public class AVLTree implements Dictionary{
 		}else if(element.key()==node.value.key()){
 			node = new Node(element);
 		}
-		node.height = (max(height(node.left),height(node.right))+1);//ricalcola l'altezza del nodo
+		upgradeHeight(node);
 		return node;
 	}
 
     /**
-     *
+     *TODO remove
      * @param key chiave dell'elemento che si vuole cancellare dal dizionario.
-     * @return
+     * @return valore dell'elemento che era presente nell'AVL, se non presente ritorna null.
      */
 	@Override
 public ObjectWhitKey remove(int key) {
 		return remove(key,root).value;
 	}
 	private Node remove(int key,Node node){
-      if(node.value.key()>key){
-        remove(key, node.left);
-      }else if(node.value.key()<key) {
-        remove(key, node.right);
-      }
-      else if(node.left.value.key()==key){//nodo trovato
-          Node deleted = node;
-          node=null;
-          if(sbil(node)== 2){
-              if(key > node.left.value.key())node.left= DD(node.left);
-              node = SS(node);
-
-          return deleted;
-      }else if (node.right.value.key()==key){
-          if(sbil(node)== -2){
-             if(key < node.right.value.key()) node.right= SS(node.right);
-              node = DD(node);
-          }
-          }
-
-	}
-      node.height = (max(height(node.left),height(node.right))+1);
-      return null;
+    if(node == null) return null;//non trovato e ritorno null
+    if(key<node.value.key()){//la chiave sti può trovare nel sottoalbero sisintro,ribilancio da sopra
+			node.left = remove(key,node.left);
+	    if(sbil(node) == 2){//caso di sbilanciamento sinistro(SS), il controllo viene fatto dal padre sui figli
+		    if(key > node.left.value.key())node.left= DD(node.left);//(caso SD1)se è maggiore la chiave da inserire rispetto al nodo,bisogna fare una rotazione destra
+		    node = SS(node);
+	    //ora bisogna ribilanciare
+	   /* int l = node.left != null ? node.left.height : 0;
+	    if((node.right != null) && (node.right.height - l >= 2)){
+				int rightHeight = node.right.right != null ? node.right.right.height : 0;
+        int leftHeight = node.right.left != null ? node.right.left.height : 0;
+        if(rightHeight <= leftHeight) DD(node);
+		    SS(node);
+	    }*/
+    }
+    }
+    else if(key>node.value.key()){//la chiave si può trovare nel sottoalbero destro
+      node.right = remove(key,node.right);
+	    if(sbil(node) == - 2){
+		    if(key < node.right.value.key()) node.right= SS(node.right);//in questo caso sarebbe DD
+		    node = DD(node);
+	   /* int r = node.right != null ? node.right.height : 0;
+	    if((node.left != null) && (node.left.height - r >= 2)){
+		    int leftHeight = node.left.left != null ? node.left.left.height : 0;
+		    int rightHeight = node.left.right != null ? node.left.right.height : 0;
+		    if(leftHeight <= rightHeight) SS(node);
+		    DD(node);
+	    }*/
+    }
+    }else if(key==node.value.key()){
+			if(node.left==null) node = node.right;
+	    else if(node.right==null) node= node.left;
+	    else{
+				node.value = min(node.right);
+				node.right = remove(node.value.key(),node.right);
+				numElem--;
+			}
+		}
+	upgradeHeight(node);
+  return node;
   }
 
 	@Override
@@ -125,10 +142,15 @@ public ObjectWhitKey remove(int key) {
 		return min(root);
 	}
 	private ObjectWhitKey min(Node node) {
-		if(node==null) return null;
-		else if(node.left==null) return node.value;
-		else return min(node.left);
+		while(node.left!=null) node = node.left;
+		return node.value;
 	}
+	private Node deleteMin(Node node){
+		if(node.left==null) return node.right;
+		node.left = deleteMin(node.left);
+		return node;
+	}
+
 
     /**
      * Rotazione ss
@@ -140,8 +162,8 @@ public ObjectWhitKey remove(int key) {
 		s =d.left;
 		d.left=s.right;
 		s.right=d;
-		d.height=max(height(d.left),height(d.right))+1;
-		s.height=max(height(s.left),height(s.right))+1;
+		upgradeHeight(d);
+		upgradeHeight(s);
 		return s;
 	}
 
@@ -155,14 +177,18 @@ public ObjectWhitKey remove(int key) {
 		d=s.right;
 		s.right=d.left;
 		d.left=s;
-		s.height=max(height(s.left),height(s.right))+1;
-		d.height=max(height(d.left),height(d.right))+1;
+		upgradeHeight(s);
+		upgradeHeight(d);
 		return d;
 	}
-	
+	//------------------funzioni ausuliare----------------\\
 	private int height(Node node){
 		if(node==null) return -1;
 		else return node.height;
+	}
+	private void upgradeHeight(Node node){
+		if(node!=null)
+		node.height = max(height(node.left),height(node.right))+1;//ricalcola l'altezza del nodo radice(node)
 	}
    private int sbil(Node node){
        return height(node.left)-height(node.right);

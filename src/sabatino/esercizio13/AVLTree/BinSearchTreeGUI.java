@@ -54,6 +54,7 @@ public class BinSearchTreeGUI extends JFrame {
           int key = Integer.parseInt(text2.getText());
           tree.remove(key);
           repaint();
+	        System.out.println(tree.is1Balanced());
         }
       }
     );
